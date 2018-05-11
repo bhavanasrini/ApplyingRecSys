@@ -1,4 +1,5 @@
 #!/usr/bin/python
+# Converting CSV format to Inverted Index structure
 import sys
 import os
 count = 0
