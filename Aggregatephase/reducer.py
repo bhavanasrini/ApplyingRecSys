@@ -1,4 +1,7 @@
 #!/usr/bin/python
+"""
+Aggregating distance and applying weighted approach
+"""
 import sys
 import os
 import ast
