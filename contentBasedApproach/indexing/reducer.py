@@ -6,7 +6,7 @@ import ast
 key_dict = {}
 for line  in sys.stdin:
 	key_line = (ast.literal_eval(line))
-	if key_line[0] in key_dict.keys():
+	if key_line[0] in key_dict:
 		temp = key_dict[key_line[0]]
 		if key_line[1][1] in temp.keys():
 			val = temp[key_line[1][1]]
