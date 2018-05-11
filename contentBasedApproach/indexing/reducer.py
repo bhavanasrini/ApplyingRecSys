@@ -2,7 +2,9 @@
 import sys
 import os
 import ast
-
+"""
+Grouping based on keys (term values)
+"""
 key_dict = {}
 for line  in sys.stdin:
 	key_line = (ast.literal_eval(line))
