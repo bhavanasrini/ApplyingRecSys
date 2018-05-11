@@ -3,6 +3,9 @@ import sys
 import os
 import numpy as np
 import ast
+"""
+Computing Cosine Similarity for non-zero vectors
+"""
 item_dict = {}
 for lines in sys.stdin:
 	item_dict = ast.literal_eval(lines)
